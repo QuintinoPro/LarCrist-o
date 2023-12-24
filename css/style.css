@@ -107,7 +107,6 @@ nav ul a:hover::after{
 .banner .banner-text .img-banner .logo{
     width: 500px;
     height: auto;
-    
 }
 
 .banner .banner-text{
@@ -119,7 +118,6 @@ nav ul a:hover::after{
 .banner .banner-text h1{
     font-size: 77px;
     color: #004B96;
-    
 }
 
 .banner .banner-text h2{
@@ -133,5 +131,76 @@ nav ul a:hover::after{
     font-weight: lighter;
     margin: 18px 0;
 }
+
+/* Cuidafos */
+.cuidamos .container{
+    display: flex;
+    align-items: center;
+}
+
+.cuidamos .cuidamos-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.cuidamos .cuidamos-text h3{
+    font-size: 45px;
+}
+
+.cuidamos .cuidamos-text p{
+    margin: 20px 0 20px 0;
+    font-size: 17px;
+}
+
+.cuidamos .cuidamos-img{
+    width: 50%;
+}
+
+.cuidamos .cuidamos-img img{
+    width: 100%;
+}
+
+/* Atividades */
+.atividades .container{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%; 
+}
+
+.atividades .carousel-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.atividades .carousel-text h3{
+    font-size: 45px;
+}
+
+.atividades .carousel-text p{
+    margin: 20px 0 20px 0;
+    font-size: 17px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px; /* Ajuste o tamanho conforme necessário */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+.carousel-images {
+    position: relative;
+    display: flex;
+    transition: transform 0.4s ease;
+}
+  
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+  
 
 
