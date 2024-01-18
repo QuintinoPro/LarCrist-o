@@ -62,3 +62,14 @@ carousel.addEventListener('mouseleave', () => {
 
 // Inicia a rotação automática quando a página carrega
 startAutoSlide();
+
+
+let ul = document.querySelector('nav .ul');
+
+function openMenu(){
+  ul.classList.add('open');
+}
+
+function closeMenu(){
+  ul.classList.remove('open');
+}

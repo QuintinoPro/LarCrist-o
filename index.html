@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>Lar Cristão Mathilde</title>
 </head>
 <body>
@@ -20,7 +22,14 @@
                     <a href="sobre.html">Sobre</a>
                     <a href="Serviços.html">Serviços</a>
                     <a class="btn" href="Contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
                 </ul>
+
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
@@ -37,6 +46,7 @@
         <!-- end Container -->
     </header>
     <!-- end Header -->
+
     <!-- Cuidamos -->
     <section class="cuidamos">
         <!-- Container -->
@@ -55,6 +65,41 @@
         <!-- end Container --> 
     </section>
     <!-- end Cuidamos -->
+
+    <!-- Couter section starts -->
+    <section class="count">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="content">
+                    <h3>+80 Anos</h3>
+                    <p>Experiência</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-person-cane"></i>
+                <div class="content">
+                   <h3>+70</h3>
+                    <p>Idosos Cuidados</p>
+                </div>
+            </div>
+                <div class="box">
+                <i class="fas fa-face-smile"></i>
+                <div class="content">
+                    <h3>97%</h3>
+                    <p>Satisfação</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="content">
+                    <h3>100%</h3>
+                    <p>Regularizado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Couter section ends -->
 
     <!-- Atividades -->
     <section class="atividades">
@@ -95,8 +140,7 @@
                 <img src="/img/grid-2.png" alt="" style="width: 200px; height: auto;">
                 <img src="/img/download (1).png" alt="">
                 <img src="/img/download.png" alt="">
-                <img src="/img/download.png" alt="">
-                <img src="" alt="">
+                <img src="/img/grid.png" alt="" style="width: 200px; height: auto;">
             </div>
         </div>
     </section>
